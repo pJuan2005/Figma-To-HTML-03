@@ -613,5 +613,40 @@ a {
 }
 
 .block-item__more:hover {
-  color: #2E80CE;
+  color: #2e80ce;
+}
+/* ==================================appointment============================== */
+.appointment {
+  margin: 85px 0;
+}
+
+.appointment-inner {
+  text-align: center;
+  padding: 100px 178px;
+  background: #f6fbff;
+}
+
+.appointment-heading {
+  width: 813px;
+  margin: 0 auto;
+}
+
+.appointment-heading::after {
+  margin: 18px auto 0;
+  content: "";
+  display: block;
+  width: 136px;
+  height: 2px;
+  background: #2e80ce;
+}
+
+.appointment__desc {
+  margin: 18px auto 0;
+  width: 617px;
+}
+
+.appointment__btn {
+  margin-top: 18px;
+  width: 205px;
+  margin: 18px auto 0;
 }
